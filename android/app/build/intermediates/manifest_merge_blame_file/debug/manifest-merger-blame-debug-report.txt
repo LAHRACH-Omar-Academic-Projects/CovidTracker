@@ -1,0 +1,233 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.covidtracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:5:22-75
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:@react-native-community_netinfo] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+14-->[:@react-native-community_netinfo] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[:@react-native-community_netinfo] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-76
+15-->[:@react-native-community_netinfo] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.hardware.location" />
+16-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-65
+16-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:22-62
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-68
+17-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:22-65
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-81
+18-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:22-78
+19    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+19-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-89
+19-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:22-86
+20    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+20-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-94
+20-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:22-91
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-81
+21-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:22-78
+22    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+22-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:5-77
+22-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:22-74
+23    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+23-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-78
+23-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:22-75
+24    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+24-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:5-80
+24-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:22-77
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:5-77
+25-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:22-74
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+30
+31    <application
+31-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:7:5-29:19
+32        android:name="com.covidtracker.MainApplication"
+32-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:8:7-38
+33        android:allowBackup="false"
+33-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:12:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.1.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:10:7-41
+37        android:label="@string/app_name"
+37-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:9:7-39
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:11:7-52
+39        android:theme="@style/AppTheme" >
+39-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:13:7-38
+40        <activity
+40-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:14:7-24:18
+41            android:name="com.covidtracker.MainActivity"
+41-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:15:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:17:9-86
+43            android:label="@string/app_name"
+43-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:16:9-41
+44            android:launchMode="singleTask"
+44-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:18:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:19:9-51
+46            <intent-filter>
+46-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:20:9-23:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:21:13-65
+47-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:21:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:22:13-73
+49-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:22:23-70
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:25:7-84
+52-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:25:17-81
+53
+54        <meta-data
+54-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:26:7-28:64
+55            android:name="com.google.android.geo.API_KEY"
+55-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:27:7-52
+56            android:value="AIzaSyAXW-WDp0MF5si6oFXaukDQuThTr1wqmDE" />
+56-->C:\Users\omar\Desktop\MyAPP - Copie-3\android\app\src\main\AndroidManifest.xml:28:7-62
+57
+58        <service
+58-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-55:19
+59            android:name="com.marianhello.bgloc.sync.SyncService"
+59-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-66
+60            android:exported="true"
+60-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-36
+61            android:process=":sync" >
+61-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-36
+62            <intent-filter>
+62-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-50:29
+63                <action android:name="android.content.SyncAdapter" />
+63-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-70
+63-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:25-67
+64            </intent-filter>
+65
+66            <meta-data
+66-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-54:55
+67                android:name="android.content.SyncAdapter"
+67-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-59
+68                android:resource="@xml/syncadapter" />
+68-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:17-52
+69        </service>
+70        <service android:name="com.marianhello.bgloc.sync.AuthenticatorService" >
+70-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:9-64:19
+70-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:18-80
+71            <intent-filter>
+71-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-59:29
+72                <action android:name="android.accounts.AccountAuthenticator" />
+72-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-80
+72-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:25-77
+73            </intent-filter>
+74
+75            <meta-data
+75-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-63:57
+76                android:name="android.accounts.AccountAuthenticator"
+76-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:17-69
+77                android:resource="@xml/authenticator" />
+77-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:17-54
+78        </service>
+79
+80        <provider
+80-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-70:39
+81            android:name="com.marianhello.bgloc.data.provider.LocationContentProvider"
+81-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-87
+82            android:authorities="@string/mauron85_bgloc_content_authority"
+82-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-75
+83            android:exported="false"
+83-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-37
+84            android:syncable="true" />
+84-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-36
+85
+86        <service
+86-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-75:40
+87            android:name="com.marianhello.bgloc.service.LocationServiceImpl"
+87-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-77
+88            android:enabled="true"
+88-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-35
+89            android:exported="false" />
+89-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-37
+90        <service
+90-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:9-79:40
+91            android:name="com.marianhello.bgloc.react.headless.HeadlessService"
+91-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-80
+92            android:enabled="true"
+92-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-35
+93            android:exported="false" />
+93-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-37
+94
+95        <receiver
+95-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:9-88:20
+96            android:name="com.marianhello.bgloc.BootCompletedReceiver"
+96-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-71
+97            android:enabled="true"
+97-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-35
+98            android:exported="true" >
+98-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-36
+99            <intent-filter>
+99-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-87:29
+100                <action android:name="android.intent.action.BOOT_COMPLETED" />
+100-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:17-79
+100-->[:@mauron85_react-native-background-geolocation] C:\Users\omar\Desktop\MyAPP - Copie-3\node_modules\@mauron85\react-native-background-geolocation\android\lib\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:25-76
+101            </intent-filter>
+102        </receiver> <!-- Needs to be explicitly declared on P+ -->
+103        <uses-library
+103-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+104            android:name="org.apache.http.legacy"
+104-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+105            android:required="false" />
+105-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\cad243eba5d5e9d30aead8f2caf75568\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+115
+116        <activity
+116-->[com.intentfilter:android-permissions:0.1.7] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\416717c38e05fd410c6dabfa98f0d2ec\jetified-android-permissions-0.1.7\AndroidManifest.xml:12:9-15:59
+117            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+117-->[com.intentfilter:android-permissions:0.1.7] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\416717c38e05fd410c6dabfa98f0d2ec\jetified-android-permissions-0.1.7\AndroidManifest.xml:13:13-83
+118            android:excludeFromRecents="true"
+118-->[com.intentfilter:android-permissions:0.1.7] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\416717c38e05fd410c6dabfa98f0d2ec\jetified-android-permissions-0.1.7\AndroidManifest.xml:14:13-46
+119            android:theme="@style/AppTheme.Transparent" />
+119-->[com.intentfilter:android-permissions:0.1.7] C:\Users\omar\.gradle\caches\transforms-2\files-2.1\416717c38e05fd410c6dabfa98f0d2ec\jetified-android-permissions-0.1.7\AndroidManifest.xml:15:13-56
+120    </application>
+121
+122</manifest>
